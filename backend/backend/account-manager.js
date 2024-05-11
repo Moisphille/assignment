@@ -40,6 +40,6 @@ fastify.get('/accounts', async (request, reply) => {
     // Retrieve user accounts
 });
 
-fastify.listen(3000, () => {
-    console.log('Account Manager running on port 3000');
+fastify.listen(5500, () => {
+    console.log('Account Manager running on port 5500');
 });

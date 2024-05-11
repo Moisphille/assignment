@@ -14,5 +14,5 @@ fastify.get('/transactions/:accountId', async (request, reply) => {
 });
 
 fastify.listen(3001, () => {
-    console.log('Payment Manager running on port 3001');
+    console.log('Payment Manager running on port 5500');
 });
